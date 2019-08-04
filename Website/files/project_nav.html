@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="format.css">
+	<link href="https://fonts.googleapis.com/css?family=Actor|Barlow|Open+Sans|Raleway|Roboto|Ubuntu:500&display=swap"
+		rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+
+	<header>
+		<div class="logo">
+			<img src="images/logo.png" alt="logo" width="80vw">
+		</div>
+
+		<div class="menu" id="slide_menu">Menu</div>
+
+		<nav>
+			<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="resume.html" >Resume</a></li>
+					<li><a href="project_nav.html" class="selected">Project</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<article style="width: 100%; background:#1b1b1b">
+		<div id="expmgr" class="modal" style="max-width: 100%;">
+			<img src="images/ExpenseMgr/Compilation.jpg">
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<div id="teamup" class="modal" style="max-width: 100%;">
+			<img src="images/Team up/teamup.jpg">
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<div id="asha" class="modal" style="max-width: 100%;">
+			<img src="images/Asha/1.png">
+			<img src="images/Asha/2.png">
+			<img src="images/Asha/3.png">
+			<img src="images/Asha/4.png">
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<div id="transcribe" class="modal" style="max-width: 100%;">
+			<img src="images/Transcribe/mockup.jpg">
+			<div style="text-align:center">
+				<img src="images/Transcribe/3.gif">
+			</div>
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<!-- -----------------------------------------  -->
+
+
+		<div class="project_home" style="min-height: 500px;">
+
+			<h1 style="color: #0ecabe;
+			font-weight: 100;">My Projects</h1>
+
+			<div style="height: 50px"></div>
+
+			<div class="modalrow">
+				<div>
+					<a href="#expmgr" rel="modal:open">
+						<img src="images/ExpenseMgr/ExpMgr.png">
+					</a>
+				</div>
+			</div>
+			<div class="modalrow">
+				<div>
+					<a href="#teamup" rel="modal:open">
+						<img src="images/Team up/landing.png">
+					</a>
+				</div>
+			</div>
+			<div class="modalrow">
+				<div>
+					<a href="#asha" rel="modal:open">
+						<img src="images/Asha/logo.png">
+					</a>
+				</div>
+			</div>
+			<div class="modalrow">
+				<div>
+					<a href="#transcribe" rel="modal:open">
+						<img src="images/Transcribe/landing.png">
+					</a>
+				</div>
+			</div>
+
+			<!-- <p><a href="#ex1" rel="modal:open">Open Modal</a></p> -->
+		</div>
+	</article>
+
+
+	<footer>
+		<div class="copyright">
+
+			<!--(Optional) Edit the copyright if required-->
+
+			Copyright &copy Department of Design, IIT-Delhi<br>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="format_jquery.js"></script>
+
+</body>
+
+</html>
