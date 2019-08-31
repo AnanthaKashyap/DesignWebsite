@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="format.css">
+	<link href="https://fonts.googleapis.com/css?family=Actor|Barlow|Open+Sans|Raleway|Roboto|Ubuntu:500&display=swap"
+		rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+
+	<header>
+		<div class="logo">
+			<img src="images/logo.png" alt="logo" width="80vw">
+		</div>
+
+		<div class="menu" id="slide_menu">Menu</div>
+
+		<nav>
+			<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="assignment.html" class="selected">Assignment</a></li>
+					<li><a href="project_nav.html" >Project</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<article style="width: 100%; background:#1b1b1b">
+
+		<div id="asgn1" class="modal" style="max-width: 100%; min-height: 100%">
+			<iframe src="assets/pdf/assignment1.pdf" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%">
+				This browser does not support PDFs. Please download the PDF to view it: Download PDF
+			</iframe>
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<div id="asgn2" class="modal" style="max-width: 100%; min-height: 100%">
+			<iframe src="assets/pdf/assignment2.pdf" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%">
+				This browser does not support PDFs. Please download the PDF to view it: Download PDF
+			</iframe>
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<div id="asgn3" class="modal" style="max-width: 100%; min-height: 100%">
+			<iframe src="assets/pdf/assignment3.pdf" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%">
+				This browser does not support PDFs. Please download the PDF to view it: Download PDF
+			</iframe>
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<div id="asgn4" class="modal" style="max-width: 60%;">
+			<img src="images/Assignments/Assignment4/1.jpg">
+			<img src="images/Assignments/Assignment4/2.jpg">
+			<img src="images/Assignments/Assignment4/3.jpg">
+			<img src="images/Assignments/Assignment4/4.jpg">
+			<h3>Assignment part 1 and 2</h3>
+			<iframe width="560" height="315" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/0ZAPg9jCvB8">
+			</iframe>
+			<h3>Assignment part 3</h3>
+			<iframe width="560" height="315" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/Pl0CiYmVPaU">
+			</iframe>
+			<h3> </h3>
+			<a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<!-- -----------------------------------------  -->
+
+
+		<div class="project_home" style="min-height: 500px;">
+
+			<h1 style="color: #0ecabe;
+			font-weight: 100;">DSL 810 Assignments</h1>
+
+			<div style="height: 50px"></div>
+
+			<div class="modalrow">
+				<div>
+					<a href="#asgn1" rel="modal:open">
+						<img src="images/Assignments/assign1.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="modalrow">
+				<div>
+					<a href="#asgn2" rel="modal:open">
+						<img src="images/Assignments/assign2.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="modalrow">
+				<div>
+					<a href="#asgn3" rel="modal:open">
+						<img src="images/Assignments/assign3.jpg">
+					</a>
+				</div>
+			</div>
+
+			<div class="modalrow">
+				<div>
+					<a href="#asgn4" rel="modal:open">
+						<img src="images/Assignments/assign4.jpg">
+					</a>
+				</div>
+			</div>
+
+			<!-- <p><a href="#ex1" rel="modal:open">Open Modal</a></p> -->
+		</div>
+
+
+
+	</article>
+
+
+	<footer style="bottom: 0">
+		<div class="copyright">
+
+			<!--(Optional) Edit the copyright if required-->
+
+			Copyright &copy Department of Design, IIT-Delhi<br>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="format_jquery.js"></script>
+
+</body>
+
+</html>
